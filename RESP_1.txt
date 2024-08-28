@@ -1,1 +1,44 @@
+-------------------------EX1--------------------------------
+let quadrado = function(num) {
+    return num * num;
+};
 
+console.log(quadrado(4)); // Saída: 10
+-------------------------EX2--------------------------------
+let saudacao = function(nome) {
+    return `Olá, ${nome}!`;
+};
+
+console.log(saudacao('Maria')); // Saída: Olá, Maria!
+------------------------EX3---------------------------------
+let soma = function(a, b) {
+    return a + b;
+};
+
+console.log(soma(10, 5)); // Saída: 15
+-----------------------EX4----------------------------------
+let verificaPar = function(num) {
+    return num % 2 === 0;
+};
+
+console.log(verificaPar(7)); // Saída: false
+----------------------EX5-----------------------------------
+let calculaFatorial = function(n) {
+    if (n === 0) return 1;
+    return n * calculaFatorial(n - 1);
+};
+
+console.log(calculaFatorial(5)); // Saída: 120
+---------------------EX6------------------------------------
+let dobroDeCadaElemento = function(array) {
+    return array.map(num => num * 2);
+};
+
+console.log(dobroDeCadaElemento([1, 2, 3])); // Saída: [2, 4, 6]
+------------------------EX7---------------------------------
+let juntarStrings = function(str1, str2) {
+    return str1 + str2;
+};
+
+console.log(juntarStrings('Olá', ' Mundo!')); // Saída: Olá Mundo!
+-----------------------------------------------------------------
